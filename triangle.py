@@ -13,7 +13,6 @@ while count < 5 : # 무조건 중단 시킬 조건이 존재해야됨.
     print(count)    
     
     count += 1
-        
     
     
 print("hello world")    

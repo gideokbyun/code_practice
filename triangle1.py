@@ -7,6 +7,5 @@ count = 1
 while count <= user_i: 
     print("*" * count)
     count += 1
-    
-    
-    
+
+print("<< END >>") 
