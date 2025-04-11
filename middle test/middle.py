@@ -2,8 +2,8 @@
 count = 1
 total = 0 
 while count <= 5:
-    count += 1
     user_type = int(input("정수를 입력하시오:"))
+    count += 1
     total = total + user_type
     average = total / (count - 1)
     
