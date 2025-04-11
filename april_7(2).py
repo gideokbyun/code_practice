@@ -14,12 +14,11 @@ print(f"평균: {average}")
 
 #우수 합격: 평균 90점 이상, 각각 80점 이상.
 if average >= 90 and korean >= 80 and english >= 80 and math >= 80:
-    
-    print("우수 합격")
+    print("결과: 우수 합격")
 #합격: 평균: 70점 이상, 각각 40점 이상
-elif average >= 80 and korean >= 40 and english >= 40 and math >= 40:
-    print("합격")
+elif average >= 70 and korean >= 40 and english >= 40 and math >= 40:
+    print("결과: 합격")
 #나머지는 불합격.
 else:
-    print("불합격")
+    print("결과: 불합격")
 #and, if, float 계산 시 소수점 표현, 우선순위, 우수 합격 먼저 판정.
