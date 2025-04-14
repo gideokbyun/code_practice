@@ -43,4 +43,4 @@ if membership == "yes":
         
         
 #무료 샷 제공 조건: 멤버십 고객 중 coffee, latte 주문, 크기 large인 경우: "무료 샷이 제공됩니다!
-# "
+# " 
