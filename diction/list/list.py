@@ -1,6 +1,7 @@
 bar = []
 
-bar.append(100)
+bar.append(100)#object 안에 index추가. append로. 리스트는 선형(따라서 제일 마지막에 추가).
+#절차 2가지. 리스트 제일 끝에 붙고, element 하나를 붙인다. 
 bar.append(200)
 
 print(bar)

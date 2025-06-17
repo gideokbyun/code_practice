@@ -11,8 +11,10 @@ import random
 if menu_selection == 1:
     count = 1
     for _ in range(input_value):
-        print(f"테이블 {input_value}")
+        print("테이블", input_value + 1)
+        
         for _ in range(input_value2):
+            
             for _ in range(input_value3):
                 print(count,end=" ")
                 count += 1
@@ -21,8 +23,10 @@ if menu_selection == 1:
 
 elif menu_selection == 2:
     for _ in range(input_value):
-        print(f"테이블 {input_value}")
+        print("테이블", input_value + 1)
+        
         for _ in range(input_value2):
+            
             for _ in range(input_value3):
                 print(random.randint(1,100),end=" ")
             print()
